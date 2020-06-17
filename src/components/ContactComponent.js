@@ -154,7 +154,7 @@ class Contact extends Component {
                             <FormGroup row>
                                 <Label htmlFor="email" md={2}>Email</Label>
                                 <Col md={10}>
-                                    <Input type="email" id="email" name="email" placeholder="Email" value={this.state.email} valid = {errors.email === ''} invalid= {errors.email !== ''} onChange={this.handleInputChange} onBlur={this.handleBlur('email')}></Input>
+                                    <Input type="email" id="email" name="email" placeholder="Email" value={this.state.email} valid = {errors.email === ''} invalid= {errors.ema !== ''} onChange={this.handleInputChange} onBlur={this.handleBlur('email')}></Input>
                                     <FormFeedback>
                                         {errors.email}
                                     </FormFeedback>
